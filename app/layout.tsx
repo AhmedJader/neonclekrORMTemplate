@@ -1,4 +1,4 @@
-import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { ClerkProvider, SignInButton, SignedIn, SignedOut } from '@clerk/nextjs'
 import './globals.css'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <SignInButton />
             </SignedOut>
             <SignedIn>
-              <UserButton />
+              
             </SignedIn>
           </header>
           <main>{children}</main>
