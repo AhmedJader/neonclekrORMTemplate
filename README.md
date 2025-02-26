@@ -1,4 +1,8 @@
-This document is a **starter template overview** for a **full-stack application** that includes **authentication, user management, and a serverless database**. It is designed to serve as a foundation for future projects, providing a pre-configured setup with modern technologies. Here's a breakdown of what it includes:
+This document is a **starter template overview** for a **full-stack application** that includes **authentication, user management, and a serverless database**. It is designed to serve as a foundation for future projects, providing a pre-configured setup with modern technologies. BY THE WAY, YOU NEED A CLERK ACCOUNT, AND NEONDB ACCOUNT SO GET THEM, AND CREATE A PROJECT IN BOTH AND GET THE .ENV IN ROOT DIRECTORY FOR THEM AND CLERK/NEONDB KEYS
+
+ALSO WHEN YOU COPY THIS REPO, IMMEDIATELY DO---- NPM I ----- TO GET THE DEPENDENCIES INSTALLED SO THAT IT WORKS!!
+
+ Here's a breakdown of what it includes:
 
 ---
 
@@ -40,10 +44,18 @@ The template is organized into the following directories and files:
 
 ---
 
-### **Contributing**
-The template is open for contributions. You can:
-- Open issues to report bugs or suggest improvements.
-- Submit pull requests to add features or fix issues.
+### **IMPORTANT**
+YOU NEED A CLERK ACCOUNT, AND NEONDB ACCOUNT SO GET THEM, AND CREATE A PROJECT IN BOTH AND GET THE .ENV IN ROOT DIRECTORY FOR THEM AND CLERK/NEONDB KEYS
+- .ENV IN ROOT DIRECTORY
+- GO TO https://clerk.com AND GET YOUR ACCOUNT KEY FOR A PROJECT THAT YOU WILL NEED TO MAKE!
+- GO TO https://neon.tech AND GET YOUR ACCOUNT KEY FOR A PROJECT THAT YOU WILL ALSOOO NEED TO MAKE!!
+
+AFTER THIS IS DONE, YOU WILL NEED TO PUSH YOUR NEONDB SCHEMA TO THE POSTGRES SERVERLESS CONSOLE!
+TO DO THIS YOU NEED TO DO
+
+npx drizzle-kit push
+
+THAT SENDS YOUR SCHEMA FROM app/db/schema.ts TO THE CONSOLE
 
 ---
 
